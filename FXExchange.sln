@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32428.221
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FXExchange", "FXExchange\FXExchange.csproj", "{82B461C3-1C56-4EFA-AD2B-2B90B0911B24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FXExchange.DB", "FXExchange.DB\FXExchange.DB.csproj", "{A499E1A0-3B68-4B06-8932-2E4B0DF29A48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FXExchange.Common", "FXExchange.Common\FXExchange.Common.csproj", "{6AC9F74D-104C-4AD1-96BF-9D2385442B32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FXExchange.Business", "FXExchange.Business\FXExchange.Business.csproj", "{39F2FD30-01A7-49FD-B005-938D1D831237}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B93D931C-09A7-4139-B510-7ED70F9143BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FxExchange.UnitTests", "FxExchange.UnitTests\FxExchange.UnitTests.csproj", "{3B9D1E37-E455-470D-B577-F4E03D03D143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXExchange.IntegrationTests", "FXExchange.IntegrationTests\FXExchange.IntegrationTests.csproj", "{8FFFDB26-9EB3-4E18-892F-47A986DFE4C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82B461C3-1C56-4EFA-AD2B-2B90B0911B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B461C3-1C56-4EFA-AD2B-2B90B0911B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B461C3-1C56-4EFA-AD2B-2B90B0911B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B461C3-1C56-4EFA-AD2B-2B90B0911B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A499E1A0-3B68-4B06-8932-2E4B0DF29A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A499E1A0-3B68-4B06-8932-2E4B0DF29A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A499E1A0-3B68-4B06-8932-2E4B0DF29A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A499E1A0-3B68-4B06-8932-2E4B0DF29A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC9F74D-104C-4AD1-96BF-9D2385442B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC9F74D-104C-4AD1-96BF-9D2385442B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC9F74D-104C-4AD1-96BF-9D2385442B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC9F74D-104C-4AD1-96BF-9D2385442B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F2FD30-01A7-49FD-B005-938D1D831237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F2FD30-01A7-49FD-B005-938D1D831237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F2FD30-01A7-49FD-B005-938D1D831237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F2FD30-01A7-49FD-B005-938D1D831237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9D1E37-E455-470D-B577-F4E03D03D143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9D1E37-E455-470D-B577-F4E03D03D143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9D1E37-E455-470D-B577-F4E03D03D143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9D1E37-E455-470D-B577-F4E03D03D143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FFFDB26-9EB3-4E18-892F-47A986DFE4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FFFDB26-9EB3-4E18-892F-47A986DFE4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FFFDB26-9EB3-4E18-892F-47A986DFE4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FFFDB26-9EB3-4E18-892F-47A986DFE4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B9D1E37-E455-470D-B577-F4E03D03D143} = {B93D931C-09A7-4139-B510-7ED70F9143BC}
+		{8FFFDB26-9EB3-4E18-892F-47A986DFE4C0} = {B93D931C-09A7-4139-B510-7ED70F9143BC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F567C4F2-9BED-4613-A279-36F9788CB20A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+<Project>
+	<ItemGroup>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+			<_Parameter1>FXExchange.IntegrationTests</_Parameter1>
+		</AssemblyAttribute>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+			<_Parameter1>FxExchange.UnitTests</_Parameter1>
+		</AssemblyAttribute>
+	</ItemGroup>
+</Project>
